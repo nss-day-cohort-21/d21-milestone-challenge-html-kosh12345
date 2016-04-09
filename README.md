@@ -68,4 +68,4 @@ Your task is to build a grid of cards for a company's products. Here's the requi
 
 Here's an image that shows how the cards should appear.
 
-![Static Web Quiz Example](static-web-quiz.png)
+![Static Web Quiz Example](https://github.com/nashville-software-school/front-end-milestones/blob/master/the-static-web/quizzes/static-web-quiz.png)
