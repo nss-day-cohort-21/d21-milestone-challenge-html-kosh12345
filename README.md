@@ -3,20 +3,16 @@
 ## Setup
 
 When you are ready to start the quiz, request the Github Classroom link from your instructor.  
-+ Once your repository is created on GitHub, execute the following command in your terminal:  
++ Once your repository is created on GitHub, copy the URL of your repo by clicking on the clipboard icon  
++ Then execute the following command in your terminal:  
 
 ```bash
 mkdir -p ~/workspace/quizzes/static-web/html && cd $_
 ```
 
-+ You will now be inside your project folder and can intialize a local repo for your project with 
++ You will now be inside your project folder and can clone the remote repo into your local folder 
 ```bash
-git init
-```
-+ Now run the following commands:
-```bash
-git remote add origin (plus your GitHUb repo address, ie https://github.com/nss-day-cohort-13/static-web-html-css-quiz-JoeShep)
-git pull origin master
+git clone <paste in the url of your github repo>
 ```
 
 Now you've connected your remote and local repos and are ready to get to work. All of your quiz work should be on a branch, NOT on master. To do this, type:
