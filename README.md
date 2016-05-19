@@ -2,20 +2,18 @@
 
 ## Setup
 
-When you are ready to start the quiz, request the Github Classroom link from your instructor.  
-+ Once your repository is created on GitHub, copy the URL of your repo by clicking on the clipboard icon  
-+ Then execute the following command in your terminal:  
+Run the following command in your terminal:
 
 ```bash
 mkdir -p ~/workspace/quizzes/static-web/html && cd $_
 ```
 
-+ You will now be inside your project folder and can clone the remote repo into your local folder 
-```bash
-git clone <paste in the url of your github repo>
-```
+This will create a project folder and cd you into it.
+When you are ready to start the quiz, request the Github Classroom link from your instructor  
++ Once your repository is created on GitHub, copy the list of commands under **"..or create a new repository on the command line"** by clicking on the clipboard icon  
++ Paste the commands into your terminal. This will create a README.md file, add it, commit it, connect your local reop to GitHub, and set you up to push up the changes. (If the last command, `git push origin master` isn't automatically executed, hit enter/return to run it).
 
-Now you've connected your remote and local repos and are ready to get to work. All of your quiz work should be on a branch, NOT on master. To do this, type:
+All of your quiz work should be on a branch, NOT on master. To do this, type:
 
 ```bash
 git checkout -b quiz
