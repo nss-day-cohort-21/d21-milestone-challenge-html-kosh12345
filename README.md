@@ -46,7 +46,7 @@ Create a site for your own personal branding. Keep in mind this is an HTML exerc
 
 
 ## Notes
-Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
-Examples of semantic elements: <form>, <table>, and <article> - Clearly defines the content.
+Examples of non-semantic elements: `<div>` and `<span>` - Tells nothing about its content.
+Examples of semantic elements: `<form>`, `<table>`, and `<article>` - Clearly defines the content.
 
 Page Titles and Headings: http://meetcontent.com/blog/introducing-content-page-titles-headings/
