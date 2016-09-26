@@ -1,5 +1,5 @@
 # The Static Web HTML + CSS Mastery Exercise
-
+### Create a site for your personal branding that will showcase your work and be used as part of your graduation self-marketing.
 ## Setup
 
 These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below. It doesn't matter what directory you are currently in.
@@ -29,8 +29,7 @@ When your work in complete, push up the branch (`git push origin quiz`) and subm
 
 ## Instructions
 
-Create a site for your own personal branding. This is an HTML exercises, so while you may style this site to your heart's content, we will be focusing on the HTML structure and syntax of your code.
-Your task is to build a personal web page that will eventually showcase your work.
+Create a site for your own personal branding. Keep in mind this is an HTML exercise, however it is also the beginning of your portfolio.  We will be focusing on the HTML structure and syntax of your code. Keep styles simple. 
 
 
 ### Content and Technical Requirements
