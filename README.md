@@ -1,7 +1,8 @@
-# The Static Web HTML + CSS Quiz
-
+# The Static Web HTML + CSS Mastery Exercise
+### Create a site for your personal branding that will showcase your work and be used as part of your graduation self-marketing.
 ## Setup
 
+These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below. It doesn't matter what directory you are currently in.
 Run the following command in your terminal:
 
 ```bash
@@ -18,49 +19,34 @@ All of your quiz work should be on a branch, NOT on master. To do this, type:
 ```bash
 git checkout -b quiz
 touch index.html
-touch quiz.css
+mkdir css && touch css/quiz.css
+mkdir images
 ```
-
 You are now ready to work in the `quiz` branch.
 
 When your work in complete, push up the branch (`git push origin quiz`) and submit the pull request on Github.
 
+
 ## Instructions
 
-Your task is to build a grid of cards for a company's products. Here's the requirements for the basic structure of the cards.
+Create a site for your own personal branding. Keep in mind this is an HTML exercise, however it is also the beginning of your portfolio.  We will be focusing on the HTML structure and syntax of your code. Keep styles simple. 
 
-1. Each card should be an `article`.
-1. Each card should take up 30% of the width of the browser window.
-1. Each product should contain a `header` element that, itself, contains an `h1` element where the product's title will be written.
-1. Each product should have three sections.
-1. The first section should contain three child block elements.
-    1. The first element contains the product image.
-    1. The second element contains the product description.
-    1. The third element contains the product availability (e.g. "Available" or "Not Available")
-1. The second section contains product specifications.
-    1. This section should have a header containing the word "Specifications"
-    1. This section should contain two block elements
-    1. The first block element specifies the size.
-    1. The second block element specifies the weight.
-    1. This section should contain a footer.
-    1. The footer contains text stating when the product specifications become invalid.
-1. The third section contains the product pricing.
-    1. This section should contain a header.
-    1. This section should contain three block elements.
-    1. Each block element contains information about the price for different quantities.
 
-### Additional style requirements
+### Content and Technical Requirements
+1. Title - make it meaningful.
+1. Header element `<h1>` - This is the main headline; include your name and what this page is.
+1. Photo
+1. Article element containing your bio
+1. Article element with links to resources or sites you like
+1. Article element with two sections for future projects (placeholders)
+1. Footer element with email and professional social media links; Github, twitter, LinkedIn, etc.
+1. Semantic mark-up for all major elements.
+1. 1. Validate your html page with W3 validator: https://validator.w3.org/
+1. Appropriate folder structure: images, css.
 
-1. The entire card has a solid 1px border that is `lightblue`.
-1. The card title has a dotted 1px border that is `lightgray`.
-1. The title and product image are centered.
-1. Notice that the text for the description in the image is justified.
-1. The text for the product specification details and pricing details is bold.
-1. The availability element extends the full width of the card, with a dark grey background and yellow text.
 
-### Visual example
+## Notes
+Examples of non-semantic elements: `<div>` and `<span>` - Tells nothing about its content.
+Examples of semantic elements: `<form>`, `<table>`, and `<article>` - Clearly defines the content.
 
-Here's an image that shows how the cards should appear.
-
-![Static Web Quiz Example](./static-web-quiz.png)
-
+Page Titles and Headings: http://meetcontent.com/blog/introducing-content-page-titles-headings/
