@@ -48,6 +48,7 @@ Create a site for your own personal branding. Keep in mind this is an HTML exerc
 ## Notes
 * Examples of non-semantic elements: `<div>` and `<span>` - Tells nothing about its content.
 * Examples of semantic elements: `<form>`, `<table>`, and `<article>` - Clearly defines the content.
-* Color scheme - choose primary, secondary, and tertiary colors in addition to black and white. Use these colors consistently in your styleshee.
+* Color scheme - choose primary, secondary, and tertiary colors in addition to black and white. Use these colors consistently in your stylesheet.
 
 Page Titles and Headings: http://meetcontent.com/blog/introducing-content-page-titles-headings/
+Explore and create color combinations: https://color.adobe.com
