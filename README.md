@@ -29,7 +29,7 @@ If you would like to have your work reviewed, push up the branch (`git push orig
 
 ## Instructions
 
-Create a page for your own personal branding. Keep in mind this is an HTML exercise, however it is also the beginning of your portfolio.  We will be focusing on the HTML structure and syntax of your code. Keep styles simple. 
+Create a page for your own personal branding that can be treated as the beginning of your portfolio. You should focus on HTML structure and syntax with basic layout using styles.
 
 
 ### Content and Technical Requirements
@@ -45,6 +45,7 @@ Create a page for your own personal branding. Keep in mind this is an HTML exerc
 1. Validate your html page with W3 validator: https://validator.w3.org/
 1. Appropriate folder structure: images, css.
 1. Color scheme - choose primary, secondary, and tertiary colors in addition to black and white. Use these colors consistently in your stylesheet.
+1. The page will have a linked JavaScript file for the blog posts section. Create an array to hold your posts (at least 2 posts). Each item in the array must be an object that contains at a minimum the following information: Title, Copy, Date. Use JavaScript to add each post to the DOM.
 
 
 ## Notes
